@@ -1,0 +1,6 @@
+text_file = open("word list.txt", "r")
+lines = text_file.readlines()
+print (lines)
+print (len(lines))
+text_file.close()
+print(lines.index('world'))
